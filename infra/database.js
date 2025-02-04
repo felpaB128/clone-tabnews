@@ -13,7 +13,6 @@ async function query(queryObject) {
   await client.end();
   return result;
 }
-function query() {}
 
 export default {
   query: query,
